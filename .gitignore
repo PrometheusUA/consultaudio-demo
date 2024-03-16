@@ -1,0 +1,8 @@
+data/
+*.mp4
+*.wav
+FPN_logo.png
+__pycache__/
+.venv/
+flagged/
+.env
