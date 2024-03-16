@@ -10,11 +10,11 @@ The project clones the lecturer's voice and tries to capture his answering style
 
 ## Demo videos
 
-Demo 1:
+Demo 1 (click on the image to watch the YouTube video):
 
 [![Demo1 preview](https://img.youtube.com/vi/N0XfxP9irpA/0.jpg)](https://youtu.be/N0XfxP9irpA)
 
-Demo 2:
+Demo 2 (click on the image to watch the YouTube video):
 
 [![Demo1 preview](https://img.youtube.com/vi/gexeEqa0SiU/0.jpg)](https://youtu.be/gexeEqa0SiU)
 
@@ -78,4 +78,4 @@ LLM QA is possible here with two models: GPT-3.5 and Gemma-2b for now. Gemma's c
 
 Thanks to [AI House](https://aihouse.org.ua/en/), [Ukrainian Catholic University](https://ucu.edu.ua/en/), [Faculty of Applied Sciences of UCU](https://apps.ucu.edu.ua/en/) for organizing Generative AI Spring School. Also, thanks to the school's partners: GlobalLogic, SoftServe, Skylum, and ADVA Soft.
 
-Special thanks to [Ampersand Education Foundation](https://ampersand.foundation/) which allows me to obtain my education at the Ukrainian Catholic University.
+Special thanks to [Ampersand Education Foundation](https://ampersand.foundation/) which allows me (Andrii Shevtsov, PrometheusUA) to obtain my education at the Ukrainian Catholic University.
