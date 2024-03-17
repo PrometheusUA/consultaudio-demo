@@ -1,11 +1,8 @@
-import sys
 import gradio as gr
 
-sys.path.insert(0, 'E:\\_UNIVER\\UCU\\gen_ai_school\\hack\\')
-
-from gemma.main import Main
-from ui.load_youtube import load_youtube
-from ui.perform_tts import perform_tts
+from components.retrieval import RetrievalSystem
+from components.load_youtube import load_youtube
+from components.perform_tts import perform_tts
 from dotenv import load_dotenv
 
 
@@ -22,9 +19,9 @@ def answer_question(question, video_link, pdfs, model):
     if pdfs is not None:
         file_paths.extend(pdfs)
 
-    main = Main(file_paths, use_gemma=(model=='Gemma-2B'))
+    main = RetrievalSystem(file_paths, use_gemma=(model=='Gemma-2B'))
 
-    answer_text = Main.remove_abbreviations(str(main.answer(question)))
+    answer_text = RetrievalSystem.remove_abbreviations(str(main.answer(question)))
     perform_tts(filename_base, answer_text)
     answer_audio = f'./data/audios/{filename_base}_answer.wav'
     return answer_text, answer_audio

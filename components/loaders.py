@@ -6,8 +6,7 @@ import json
 from langchain_community.document_loaders.base import BaseLoader
 from langchain.docstore.document import Document
 
-from gemma.utility import scrape_links_for_text
-
+from components.utility import scrape_links_for_text
 
 
 class Loader(BaseLoader):

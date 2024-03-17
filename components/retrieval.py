@@ -17,12 +17,12 @@ from langchain.schema.output_parser import StrOutputParser
 import warnings
 warnings.filterwarnings('ignore')
 
-from gemma.loaders import load_data_from_file
-from gemma.prompts import template
+from components.loaders import load_data_from_file
+from components.prompts import template
 
 
 
-class Main:
+class RetrievalSystem:
     def __init__(self, file_paths, use_gemma=False):
         data = load_data_from_file(file_paths=file_paths)
 

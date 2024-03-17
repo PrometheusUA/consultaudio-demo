@@ -47,7 +47,7 @@ OPENAI_API_KEY=<your_key_here>
 
 To run the UI after the environment is set up, you can just run it with Python:
 ```
-python ui/gradio_ui.py
+python gradio_ui.py
 ```
 
 ## Main architecture 
@@ -62,11 +62,10 @@ LLM QA is possible here with two models: GPT-3.5 and Gemma-2b for now. Gemma's c
 
 ### Folder structure
 
-- `ui` folder contains gradio UI implementation, YouTube parsing, and TTS parts.
-- `notebooks` folder contains notebooks with experiments that lay behind the whole model.
-- `gemma` folder contains the main RAG pipeline.
+- `components` folder contains the main RAG pipeline, YouTube parsing, and TTS parts.
 - `data` folder stores audio, transcriptions, and other data.
 - `images` is supplementary folder to store Readme images.
+- `notebooks` folder contains notebooks with experiments that lay behind the whole model.
 
 ## Following steps
 
